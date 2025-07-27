@@ -21,3 +21,22 @@ img{
     gap: 5px;
 
 }
+/* small device */
+@media screen and (max-width: 576px) {
+    .row {
+        flex-direction: column;
+        height: auto;
+    }
+    .Square {
+        grid-template-columns: 1fr;
+    }
+    
+}
+
+/* large device */
+@media screen and (min-width: 577px) and (max-width: 992px) {
+    .row {
+        flex-direction: column;
+        height: auto;
+    }
+}
